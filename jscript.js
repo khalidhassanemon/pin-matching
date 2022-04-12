@@ -39,20 +39,4 @@ function clr(){
 }
 function del(){
   out.value=out.value.slice(0,-1);
-}/*
-function conditional(num2){
-   var rand=document.getElementById('randomNumber');
-   var finalRandom=rand.value;
-   if(finalRandom===num2){
-     console.log('matched your pin');
-   }
-   else
-   {
-     console.log('your pin is wrong')
-   }
 }
-var submt=document.getElementById('sub').addEventListener('click',function(){
-  var inputNumber=document.getElementById("input-text");
-   var finalValue=inputNumber.value;
-   conditional(finalValue);
-};*/
