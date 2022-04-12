@@ -18,18 +18,17 @@ let calculate=(number)=>{
 
 let submt=()=>{
    var outDisplay=out.value;
-   console.log(x);
    if(outDisplay==x)
    {
      var show=document.getElementById('hide');
      show.style.display='none';
-     var print=document.getElementById('wrong-pin');
+     var print=document.getElementById('pin-matches');
      print.style.display='block';
    }
    else{
      show=document.getElementById('hide');
     show.style.display='none';
-     print=document.getElementById('pin-matches');
+     print=document.getElementById('wrong-pin');
      print.style.display='block';
    }
 }
